@@ -28,7 +28,7 @@ presence.on("UpdateData", async () => {
   
 
   if(pathname.includes("/search/")) {
-    const [ searchedmod ] = pathname.split("/");
+    const [, ,searchedmod ] = pathname.split("/"); // TODO array deconstructing broke the code
     presenceData.details = `Searching for ${searchedmod}`;
   }
 
@@ -112,6 +112,15 @@ presence.on("UpdateData", async () => {
       presenceData.details = "Searching Misc Mods...";
     
   }
+
+  // FORUM //
+  // TODO Forum Support
+
+
+
+
+  // TODO More functionality.
+  // TODO Use more the DOM ( not only title )
 
   if (presenceData.details === null) {
     presence.setTrayTitle();

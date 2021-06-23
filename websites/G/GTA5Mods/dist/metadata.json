@@ -6,15 +6,18 @@
     "id": "280784667743879178"
   },
   "category": "games",
-  "logo": "https://user-images.githubusercontent.com/72723971/120658455-1216af80-c44b-11eb-8e4e-5dfb92ee3b04.png",
-  "thumbnail": "https://imgur.com/xCX7D3t",
+  "logo": "https://i.imgur.com/TMvHc1Q.png",
+  "thumbnail": "https://i.imgur.com/xCX7D3t.png",
   "version": "1.0.0",
   "color": "#2eb152",
   "tags": [
     "gta",
     "mods"
   ],
-  "url": "www.gta5-mods.com",
+  "url": [
+    "www.gta5-mods.com",
+    "forums.gta5-mods.com"
+  ],
   "description": {
     "fr": "GTA 5 Mods est l'un des meilleurs sites pour les mods sur GTA V, outils, playermodels, véhicules ? Vous pouvez avoir tout ce dont vous avez besoin !",
     "en": "GTA 5 Mods is one of the best websites for mods on GTA V, tools, playermodels, vehicules ? You can have everything you need !"
